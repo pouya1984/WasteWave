@@ -1,0 +1,8 @@
+Data files are saved in the Touchstone format as .s2p-files, with each file containing 101 rows and 5 columns of data and additional header row. This header describes additional information about the format of the saved data. The header row in this dataset contains the same header row of "# HZ S RI R 50", which corresponds to: frequency is measured in Hz, we have recorded scattering parameters, the complex scattering parameters are recorded as real-imaginary pairs and the reference resistance of the measurement system is 50 ohms.
+
+Each data row contains the following fields:
+
+Frequency(Hz) S11(real component) S11(imaginary component) S21(real component) S21(imaginary component) 0 0 0 0
+
+
+The data files are sorted by material class into three subfolders: Metal, Plastic and Cardboard. Additional information about object and scan identifiers can be found from individual filenames. Each filename starts with letter m, p, or c, corresponding to the material class, followed by o#s#, with o# designating the in-class object number and s# designating the in-item scan number. Thus the 9th scan from the 15th plastic item would have the filename po14s8.s2p, as we begin enumeration from 0 rather than 1.
