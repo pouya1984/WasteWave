@@ -1,0 +1,66 @@
+{
+  "name": "WasteWave",
+  "description": "Microwave reflection measurements of household waste materials. Publication template; data not included.",
+  "status": "template_no_data",
+  "data_included": false,
+  "version": null,
+  "license": null,
+  "url": null,
+  "identifier": null,
+  "creators": [
+    {
+      "name": "Joona Helenius",
+      "affiliation": "University of Turku"
+    },
+    {
+      "name": "Pouya Jafarzadeh",
+      "affiliation": "University of Turku"
+    },
+    {
+      "name": "Fahimeh Farahnakian",
+      "affiliation": "University of Turku"
+    },
+    {
+      "name": "Jukka Heikkonen",
+      "affiliation": "University of Turku"
+    }
+  ],
+  "manuscript_reported": {
+    "measurements": 1112,
+    "unique_items": 97,
+    "measurements_by_material": {
+      "metal": 373,
+      "plastic": 375,
+      "cardboard": 364
+    },
+    "frequency_min_hz": 863000000,
+    "frequency_max_hz": 879000000,
+    "instrument_sweep_points": 101,
+    "parameters": [
+      "S11",
+      "S21"
+    ],
+    "components": [
+      "real",
+      "imaginary"
+    ],
+    "instrument": "nanoVNA-F V2",
+    "antennas": "Laird Technologies S8655PR (two)"
+  },
+  "verified_against_dataset_files": false,
+  "native_file_format": null,
+  "native_schema": null,
+  "acquisition_dates": null,
+  "missing_before_dataset_release": [
+    "actual files",
+    "format and field mapping",
+    "calibration and preprocessing details",
+    "dataset license",
+    "code/documentation license",
+    "release version",
+    "repository URL",
+    "author-approved citation",
+    "manifest and checksums"
+  ],
+  "source": "Supplied manuscript; sections 3.2.1, 3.2.2, 3.3; Table 1. See references/SOURCE.md."
+}
