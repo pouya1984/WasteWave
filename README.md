@@ -25,7 +25,7 @@ Each measurement includes complex-valued S-parameters (S11 and S21), represented
 
 The dataset is available in the `data/` directory of this repository.
 
-The repository provides measurement data and supporting documentation to facilitate reproducible research and the development of machine learning models for waste material classification.
+The metadata.text provides the data description.
 
 ## Research Applications
 
